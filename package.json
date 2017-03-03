@@ -1,0 +1,55 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "First Project",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node ./bin/server/server",
+    "test": "./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "App-1st."
+  },
+  "author": "MAnutsawee Sitatham (manutsawee113@gmail.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jscs": "^4.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-ruby-sass": "^2.1.1",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^3.2.0",
+    "mocha-jscs": "^5.0.1",
+    "mocha-jshint": "^2.3.1",
+    "run-sequence": "^1.2.2",
+    "tiny-lr": "^1.0.3"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.16.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "knex": "^0.12.7",
+    "morgan": "^1.8.1",
+    "nunjucks": "^3.0.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "passport-stub": "^1.1.1",
+    "pg": "^6.1.2"
+  }
+}
